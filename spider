@@ -5,41 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sila's Blog</title>
+    <meta name="description" content="Film reviews and more by Sila.">
+    <meta name="keywords" content="Sila, Blog, Film Review, Spider-Man, SpiderVerse">
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f0f0f0;
+            background-color: #232636;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #333;
+            background: linear-gradient(to right, #f016e8, #ff9a8b);
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         nav {
-            background-color: #666;
-            padding: 10px 0;
+            background: linear-gradient(to right, #664a65, #353dd4);
+            padding: 15px 0;
             text-align: center;
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            padding: 0 10px;
+            padding: 0 15px;
+            font-size: 16px;
+            transition: color 0.3s;
         }
 
         nav a:hover {
+            color: #f016e8;
             text-decoration: underline;
         }
 
         .container {
             width: 80%;
-            margin: auto;
+            margin: 20px auto;
             overflow: hidden;
         }
 
@@ -47,24 +53,71 @@
             background-color: #fff;
             padding: 20px;
             margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .post:hover {
+            transform: scale(1.02);
         }
 
         .post h3 {
-            color: #333;
+            color: #6066d6;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
 
         .post p {
             color: #555;
+            line-height: 1.8;
         }
 
         footer {
-            background-color: #333;
+            background: linear-gradient(to right, #f016e8, #ff9a8b);
             color: #fff;
             text-align: center;
             padding: 10px 0;
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact h3 {
+            color: #00bcd4;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            nav a {
+                padding: 0 10px;
+            }
         }
     </style>
 </head>
@@ -79,91 +132,27 @@
         <a href="#">Hakkımda</a>
         <a href="#iletisim">İletişim</a>
     </nav>
-    <div id="iletisim"></div>
     <div class="container">
         <div class="post">
-            <h3>Film Review -Spider-Man: Across the SpiderVerse- </h3>
-            <img src="spider.jpg" alt="Blog gönderisi resmi">
-            <p>In 2018, Sony Pictures Animation jumped into the superhero blockbuster realm with the release of the
-                animated feature Spider-Man: Into the Spider-Verse. Directed by Bob Persichetti, Peter Ramsey, Rodney
-                Rothman, the movie, which starred the voices of Shameik Moore, Jake Johnston, Hailee Steinfeld,
-                Mahershala Ali, Brian Tyree Henry, Nicolas Cage, and Liev Schreiber, follows young high school teen
-                Miles Morales, who becomes the new Spider-Man in his world and becomes entangled in a large multiverse
-                threat by teaming up with other Spider-people from parallel universes. Spider-Man: Into the Spider-Verse
-                was theatrically released on December 14th, 2018 and receive widespread critical acclaim from both
-                critics and moviegoers, who praise the feature for its animation, characters, humor, story, and voice
-                acting. The movie also went on to gross over $384 million at the box office against its $90 million
-                production budget. In addition, the film also gained momentum at the awards season by winning the Best
-                Animated Feature at the 91st Academy Awards (being the first non-Disney / Pixar release to win the award
-                since 2011’s Rango) as well as winning awards at the 76th Golden Globe Awards, the 46th Annie Awards,
-                and the 72nd British Academy Film Awards respectfully. Given the amount of success and praise that this
-                movie received (even before its theatrical release), a sequel was immediately greenlit by Sony. Now,
-                after five years since its release, Sony Pictures Animation and directors Joaquim Dos Santos, Kemp
-                Powers, and Justin K. Thompson prepare to jump back into the “Spider-Verse” with the release of
-                Spider-Man: Across the Spider-Verse. Does this highly anticipated next chapter deliver on the high
-                standards set by its predecessor or has the inherit hype for this spider-man project overshadows a
-                middling second installment?</p>
-            <p>Across the Spider-Verse is an amazing and visually stunning animated film that takes what was previously
-                done in predecessor and improves upon it. Don’t get me wrong, there was nothing wrong about the
-                animation found in Into the Spider-Verse as it was way above the standard CGI endeavors from some of the
-                major cartoon studios, but also had its own unique style and approach towards comic book source
-                material. For this sequel, the movie’s animation continues that trend, but also gives way to new
-                dynamics towards that particular style, which translates into an improved and celebratory animated
-                feature that’s quite compelling by just sheer for it’s animated style. Taking what was previously
-                learned, the animators give each scene and sequence in Across the Spider-Verse have wonderful and visual
-                style that closes resembles a comic book portrayal, yet also imbues and interjects new usage of colors
-                backgrounds and a slightly better understanding of fluid body movement, which makes for the action much
-                more vibrant and exciting. Of course, with such a large narrative to cover within the discovery of the
-                multiverse, Across the Spider-Verse’s visual style expands by showcasing new setting and places to
-                display, especially the India-inspired city for New York City appropriately named “Mumbahattan” and the
-                vast landscape of the where the Spider Society calls home from Miguel O’Hara’s universe. Thus, I do have
-                to mention the film’s “behind the scenes” players, including Patrick O’Keefe (production designs), Dean
-                Gordon and Araiz Khalid (art direction), Brooklyn El-Omar (costume designs), and the entire animator
-                department team, for their valiant and spectacular efforts made on this project, which helps elevate the
-                feature’s animation to new cinematic cartoon heights. In addition, the direction for the movie also
-                gives way to some incredible and awe-inspiring cinematic shots that continue to build upon some great
-                dynamics for Across the Spider-Verse. Lastly, the score, which was composed by Daniel Pemberton, is
-                fantastic throughout the entire feature and definitely brings the superhero aesthetics within this
-                composition of bombastic action and quieter dialogue driven moments.
-
-            </p>
+            <h3>Film Review - Spider-Man: Across the SpiderVerse</h3>
+            <img src="spider.jpg" alt="Spider-Man: Across the SpiderVerse">
+            <p>In 2018, Sony Pictures Animation jumped into the superhero blockbuster realm with the release of the animated feature Spider-Man: Into the Spider-Verse. Directed by Bob Persichetti, Peter Ramsey, and Rodney Rothman, the movie, which starred the voices of Shameik Moore, Jake Johnston, Hailee Steinfeld, Mahershala Ali, Brian Tyree Henry, Nicolas Cage, and Liev Schreiber, follows young high school teen Miles Morales, who becomes the new Spider-Man in his world and becomes entangled in a large multiverse threat by teaming up with other Spider-people from parallel universes.</p>
+            <p>Spider-Man: Into the Spider-Verse was theatrically released on December 14th, 2018, and received widespread critical acclaim from both critics and moviegoers, who praised the feature for its animation, characters, humor, story, and voice acting. The movie also went on to gross over $384 million at the box office against its $90 million production budget. In addition, the film also gained momentum at the awards season by winning the Best Animated Feature at the 91st Academy Awards (being the first non-Disney / Pixar release to win the award since 2011’s Rango) as well as winning awards at the 76th Golden Globe Awards, the 46th Annie Awards, and the 72nd British Academy Film Awards respectfully.</p>
+            <p>Given the amount of success and praise that this movie received (even before its theatrical release), a sequel was immediately greenlit by Sony. Now, after five years since its release, Sony Pictures Animation and directors Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson prepare to jump back into the “Spider-Verse” with the release of Spider-Man: Across the Spider-Verse. Does this highly anticipated next chapter deliver on the high standards set by its predecessor or has the inherent hype for this Spider-Man project overshadowed a middling second installment?</p>
+            <p>Across the Spider-Verse is an amazing and visually stunning animated film that takes what was previously done in its predecessor and improves upon it. Don’t get me wrong, there was nothing wrong about the animation found in Into the Spider-Verse as it was way above the standard CGI endeavors from some of the major cartoon studios, but also had its own unique style and approach towards comic book source material. For this sequel, the movie’s animation continues that trend but also gives way to new dynamics towards that particular style, which translates into an improved and celebratory animated feature that’s quite compelling by just sheer for its animated style.</p>
+            <p>Taking what was previously learned, the animators give each scene and sequence in Across the Spider-Verse a wonderful and visual style that closely resembles a comic book portrayal, yet also imbues and interjects new usage of colors, backgrounds, and a slightly better understanding of fluid body movement, which makes for the action much more vibrant and exciting. Of course, with such a large narrative to cover within the discovery of the multiverse, Across the Spider-Verse’s visual style expands by showcasing new settings and places to display, especially the India-inspired city for New York City appropriately named “Mumbahattan” and the vast landscape of where the Spider Society calls home from Miguel O’Hara’s universe.</p>
+            <p>Thus, I do have to mention the film’s “behind the scenes” players, including Patrick O’Keefe (production designs), Dean Gordon and Araiz Khalid (art direction), Brooklyn El-Omar (costume designs), and the entire animator department team, for their valiant and spectacular efforts made on this project, which helps elevate the feature’s animation to new cinematic cartoon heights. In addition, the direction for the movie also gives way to some incredible and awe-inspiring cinematic shots that continue to build upon some great dynamics for Across the Spider-Verse. Lastly, the score, which was composed by Daniel Pemberton, is fantastic throughout the entire feature and definitely brings the superhero aesthetics within this composition of bombastic action and quieter dialogue-driven moments.</p>
         </div>
+
         <div class="post">
             <h3>FINAL THOUGHTS</h3>
-            <p>While still trying to balance his personal life with his superhero duties, Miles Morales gets entangled
-                in a new web of confusion and revelations as he confronts a multiverse host of Spider-People from
-                alternative realities and tries to thwart the efforts from a new enemy in the movie Spider-Man: Across
-                the Universe. Directors Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson’s latest film takes what
-                was previously established in the popular 2018 animated feature and expands upon that narrative,
-                exploring new universes, realities, and a compelling story of a young hero challenging the status quo of
-                cannon sequences of events. While there are a few minor nitpicks that I have with the feature’s pacing
-                and some elongated moments, the movie itself is visually stunning animated masterpieces, with special
-                thanks to the feature’s trio of directors, an impressive style of presentation, meaningful and thematic
-                morals, a terrific score, humorous bits, an intriguing story, interesting dynamics amongst characters
-                (old and new), and talented voice cast across the board. Personally, I really liked this movie. It was
-                an amazing sequel endeavor that both honored its first entry by expanding upon its narrative and
-                character that was previously established, yet also used that particular platform to sprung off of for a
-                bombastic and engaging story of multiverse mayhem and revelations. The animation was breathtaking
-                (reaching new heights of visual flair) and the story, while only half of the story, was very interesting
-                and engrossing towards its cliffhanger ending. Plus, the voice talents involved were great and provided
-                a lot of humor and heart in their respective roles. I still think that the first one is slightly better
-                (just a little bit more focused), but Across the Spider-Verse still has a lot of positives that Into the
-                Spider-Verse did not have, which makes this sequel on the same level as its predecessor. Thus, my
-                recommendation for this movie is quite an impressive “highly recommended”, especially if you were a fan
-                of the first installment or just fan of Spider-Man character. It was definitely worth the wait and hype.
-                It’s just that good. With this particular film completed, now the long wait begins for the release of
-                Spider-Man; Beyond the Spider-Verse, which would be the second half of larger narrative that began in
-                this film as well as also concluding this Spider-Verse trilogy. How will it end and tie everything
-                together in a grand way? Only time will tell. For now, Spider-Man: Across the Spider-Verse is a
-                fantastical follow-up to its 2018 animated adventure and delivers an incredible first half tale that
-                truly is a visually stunning and spectacular “sequel” cannon event.</p>
-        </div>
-    </div>
-    <div id="iletisim" class="post">
-        <h3>İletişim</h3>
-        <p>E-posta: silalbar2005@gmail.com<br>Telefon: 530 465 64 28</p>
-    </div>
+            <p>While still trying to balance his personal life with his superhero duties, Miles Morales gets entangled in a new web of confusion and revelations as he confronts a multiverse host of Spider-People from alternative realities and tries to thwart the efforts from a new enemy in the movie Spider-Man: Across the Universe. Directors Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson’s latest film takes what was previously established in the popular 2018 animated feature and expands upon that narrative, exploring new universes, realities, and a compelling story of a young hero challenging the status quo of cannon sequences of events.</p>
+            <p>While there are a few minor nitpicks that I have with the feature’s pacing and some elongated moments, the movie itself is a visually stunning animated masterpiece, with special thanks to the feature’s trio of directors, an impressive style of presentation, meaningful and thematic morals, a terrific score, humorous bits, an intriguing story, interesting dynamics amongst
+                <div id="iletisim" class="post">
+                    <h3>İletişim</h3>
+                    <p>E-posta: silalbar2005@gmail.com<br>Telefon: 530 465 64 28</p>
+                </div>
+            </body>
 
-</body>
-
-</html>
+            </html>
+                        
